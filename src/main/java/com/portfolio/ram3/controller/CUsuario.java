@@ -35,10 +35,10 @@ public class CUsuario {
         return usuarioServ.buscarUsuario(id);
     }
 
-    //   @PostMapping("/crear")
-    //   public void agregarUsuario(@RequestBody Usuario usuario) {
-    //       usuarioServ.crearUsuario(usuario);
-    //   }
+       @PostMapping("/crear")
+       public void agregarUsuario(@RequestBody Usuario usuario) {
+          usuarioServ.crearUsuario(usuario);
+      }
     //   @DeleteMapping("/borrar/{id}")
     //   public void eliminarUsuario(@PathVariable int id) {
     //      usuarioServ.borrarUsuario(id);
