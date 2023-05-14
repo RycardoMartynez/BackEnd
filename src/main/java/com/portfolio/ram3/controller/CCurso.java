@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("curso")//localhost:8080/curso
-@CrossOrigin(origins = "https://frontendportfolioryckdev.web.app")// se crusa con el frontEnd (angular) 
+@CrossOrigin(origins = "https://frontendportfolioryckdev.web.app/")// se crusa con el frontEnd (angular) 
 public class CCurso {
     @Autowired
     SCurso cursoServ;
