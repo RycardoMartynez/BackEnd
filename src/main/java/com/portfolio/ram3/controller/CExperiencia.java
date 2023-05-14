@@ -21,8 +21,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("experiencia")//localhost:8080/experiencia
-@CrossOrigin(origins = "https://frontendportfolioryckdev.web.app/")// se crusa con el frontEnd (angular) 
+@RequestMapping("/experiencia")//localhost:8080/experiencia
+@CrossOrigin(origins = "https://frontendportfolioryckdev.web.app")// se crusa con el frontEnd (angular) 
 
 public class CExperiencia {
     
