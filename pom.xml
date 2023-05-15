@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.portfolio</groupId>
-    <artifactId>BackEnd</artifactId>
+    <artifactId>ram3</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>BackEnd</name>
+    <name>ram3</name>
     <description>portfolio back end</description>
     <properties>
         <java.version>17</java.version>
