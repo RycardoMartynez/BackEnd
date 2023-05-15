@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/usuario")//localhost:8080/usuario
-@CrossOrigin(origins = "https://frontendportfolioryckdev.web.app")// se crusa con el frontEnd (angular) 
+@CrossOrigin(origins = {"https://frontendportfolioryckdev.web.app","http://localhost:4200","https://ryckdev.com"})// se crusa con el frontEnd (angular) 
 public class CUsuario {
 
     @Autowired
@@ -29,16 +29,16 @@ public class CUsuario {
     // public List<Usuario> verUsuarios() {
     //      return usuarioServ.verUsuarios();
     //  }
-    @GetMapping("/ver/{id}")
-    @ResponseBody
-    public Usuario verUsuario(@PathVariable int id) {
-        return usuarioServ.buscarUsuario(id);
-    }
+  //  @GetMapping("/ver/{id}")
+  //  @ResponseBody
+  //  public Usuario verUsuario(@PathVariable int id) {
+  //      return usuarioServ.buscarUsuario(id);
+  //  }
 
-       @PostMapping("/crear")
-       public void agregarUsuario(@RequestBody Usuario usuario) {
-          usuarioServ.crearUsuario(usuario);
-      }
+   //    @PostMapping("/crear")
+    //   public void agregarUsuario(@RequestBody Usuario usuario) {
+   //       usuarioServ.crearUsuario(usuario);
+   //   }
     //   @DeleteMapping("/borrar/{id}")
     //   public void eliminarUsuario(@PathVariable int id) {
     //      usuarioServ.borrarUsuario(id);
