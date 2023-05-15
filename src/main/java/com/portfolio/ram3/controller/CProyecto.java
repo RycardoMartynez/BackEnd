@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/proyecto")//localhost:8080/proyecto
-@CrossOrigin(origins = {"https://frontendportfolioryckdev.web.app","http://localhost:4200","https://ryckdev.com"})// se crusa con el frontEnd (angular) 
+@CrossOrigin(origins = "**")// se crusa con el frontEnd (angular) 
 public class CProyecto {
      @Autowired
     SProyecto proyeServ;
