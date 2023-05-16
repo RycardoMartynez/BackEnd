@@ -19,7 +19,7 @@ public class Ram3Application {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:4200", "https://frontendportfolioryckdev.web.app")
+                        .allowedOrigins("http://localhost:4200", "https://frontendportfolioryckdev.web.app","https://ryckdev.com")
                         .allowedMethods("*");
             }
         };
