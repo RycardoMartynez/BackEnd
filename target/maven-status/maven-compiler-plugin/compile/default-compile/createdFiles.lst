@@ -17,6 +17,7 @@ com\portfolio\ram3\repository\RCurso.class
 com\portfolio\ram3\service\SExperiencia.class
 com\portfolio\ram3\controller\CProyecto.class
 com\portfolio\ram3\repository\RProyecto.class
+com\portfolio\ram3\Ram3Application$1.class
 com\portfolio\ram3\controller\CExperiencia.class
 com\portfolio\ram3\entity\ESkill.class
 com\portfolio\ram3\controller\CCurso.class
